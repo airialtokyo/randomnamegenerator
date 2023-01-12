@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+      <div class="topper">
+        <p>
+            [airialtokyo]
+        </p>
+      </div>
+      <div class="container">
+            <div class="one">
+              <p class="textmiddle">[airialtokyo]</p>
+
+            </div>
+            <div class="two">
+                <p class="textmiddle">[airialtokyo]</p>
+
+            </div>
+            <div class="three">
+              <p class="textmiddle">[airialtokyo]</p>
+
+            </div>
+      </div>
+      <div class="instructionscontainer">
+        <p class="instructions">This application will generate a random name. The [CUSTOM TEXT] is so if you have a word you want the random name to start with, like lets say "Simon"
+          it will then; take "Simon" put it at as the first word of the 2 combined words and come out with something like "Simonapple". Please type your word
+        into the given text area and hit submit once, if you hit it more than once terrible things will happen. The [IS] and [THE] selectors are for adding is and the 
+      into the middle of the two words. If both are selected, is will come first followed by the. [airialtokyo]</p>
+
+
+      </div>
+
+      <div class="programcontainer">
+        <div class="inserttext">
+        <form id="form" onsubmit="return false;">
+          <input type="text" id="inputname">
+          <input id ="submit" type="submit" onclick="getCustomWord()">
+
+        </form>
+          <p class="customtext">[CUSTOM TEXT]</p>
+        </div>
+        <div id="theselector">
+          <p class="selectortext">[THE]</p>
+        </div>
+        <div id="isselector">
+          <p class="selectortext">[IS]</p>
+        </div>
+        <div id="button">
+
+          <p class="selectortext">[CALCULATE]</p>
+        </div>
+
+        
+      </div>
+      <div id="displaybox">
+        <p id="innertext"></p>
+
+      </div>
+
+      
+      
+        <script src="script.js" async defer></script>
+    </body>
+</html>

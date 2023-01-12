@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-size: 100%;
+    display:inline-block;
+
+}
+
+body{
+    margin:0;
+    text-align: center;
+}
+
+.topper{
+    background-image: url(https://wallpapercave.com/wp/wp4785708.gif);
+    background-size: cover;
+    text-align: center;
+    font-size: 10rem;
+    width: 100%;
+    height: fit-content;
+    color: aliceblue;
+    
+    
+   
+    
+
+
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+   
+    
+    
+    
+    
+    
+   
+   
+
+}
+
+.one{
+    background-image:url(https://cdn130.picsart.com/272430978021201.gif?to=min&r=1024) ;
+    margin: 1rem;
+    color: aliceblue;
+    font-size: 500%;
+    flex-grow: 1;
+    background-size: cover;
+    width: 100%;
+}
+
+.two{
+    background-image:url(https://68.media.tumblr.com/070dfab2bc249cce793aff04d64c6917/tumblr_nd3cqr5GnY1twxbjlo1_500.gif) ;
+    background-size: cover;
+    margin: 1rem;
+    color: aliceblue;
+    font-size: 500%;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+
+
+
+.three{
+    background-image:url(https://media1.giphy.com/media/xt83KFrnqdNja/source.gif) ;
+    background-size: cover;
+    margin: 1rem;
+    color: aliceblue;
+    font-size: 500%;
+    flex-grow: 1;
+    width: 100%;
+}
+  .textmiddle{
+
+padding-top: 10rem;
+  }
+.programcontainer{
+    display: flex;
+    flex-flow: wrap;
+    background-color: dimgray;
+    margin: 1rem;
+    padding: 2rem;
+    
+}
+
+.inserttext{
+    background-color:darkgreen;
+    flex-grow: 2;
+    margin: 1rem;
+    
+}
+
+.customtext{
+
+  
+    font-size: 2rem;
+    margin: 2rem;
+}
+#inputname{
+
+    height: 5rem;
+    margin: 2rem;
+
+}
+
+input[type=submit]{
+
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+    
+}
+
+.selectortext{
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+    padding-top: 5rem;
+    
+}
+ #theselector{
+    background-color: azure;
+    height: 15rem;
+    width: 15rem;
+    flex-grow: 1;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+
+
+#isselector{ 
+    background-color: azure;
+    height: 15rem;
+    width: 15rem;
+    flex-grow: 1;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+#button{
+    background-color:coral;
+    height: 15rem;
+    width: 15rem;
+    flex-grow: 1;
+    margin: 1rem;
+    cursor: pointer;
+    
+
+}
+
+.instructionscontainer{
+
+    padding: 2rem;
+
+}
+
+.instructions{
+    
+    background-color: lightblue;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+#displaybox{
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: bisque;
+    display: none;
+    text-transform: lowercase;
+
+}
+
+
+@media screen and (max-width:800px){
+.topper{
+    font-size: 5rem;
+}
+
+.textmiddle{
+    font-size: 70%;
+}
+}
+
+#isselector:hover {
+    background-color: forestgreen;
+
+}
+
+#theselector:hover {
+    background-color: forestgreen;
+}
+
+#button:hover {
+    background-color: crimson;
+}
