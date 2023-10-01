@@ -179,6 +179,15 @@ input[type=submit]{
 
 }
 
+#refreshbutton{
+    padding: 2rem;
+    margin: 1rem;
+    font-size: 2rem;
+    background-color: rgb(40, 214, 55);
+    cursor: pointer;
+    
+}
+
 
 @media screen and (max-width:800px){
 .topper{
@@ -201,4 +210,8 @@ input[type=submit]{
 
 #button:hover {
     background-color: crimson;
+}
+
+#refreshbutton:hover {
+    background-color: aqua;
 }

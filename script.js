@@ -154,9 +154,14 @@ function wordCompounderAndDisplay(){
     document.getElementById("innertext").innerHTML = finalFinalWord;
 
 };
+function reloadPage (){
+    location.reload()
+};
+
 
 //all the buttons activation and clicks and such, making them run functions displayed earlier
 
 document.getElementById("isselector").addEventListener('click', isButtonSwitcher)
 document.getElementById("theselector").addEventListener('click', theButtonSwitcher)
 document.getElementById("button").addEventListener('click', wordCompounderAndDisplay)
+document.getElementById("refreshbutton").addEventListener('click',reloadPage)
